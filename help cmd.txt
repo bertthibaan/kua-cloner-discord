@@ -1,0 +1,70 @@
+how to run on pc ?
+
+
+install pytohn and package and node.js Keep it neat.  goto folder KUA CLONER Type a message  Above square frame  [ CMD ]
+
+
+
+
+
+                   [ ⭣ ]
+
+
+
+COMMAND INSTALL      AND          RUNIG
+
+
+       [install command]  ⭢   npm i
+
+
+       [install command]  ⭢   npm i -g tsx
+
+
+       [run     command]  ⭢   tsx .
+
+
+
+how to run on mobile 
+
+
+
+                   [ ⭣ ]
+
+
+
+
+dowload app termux and install python package 
+
+
+
+       [install command]  ⭢   pkg install && upgrade
+
+
+       [install command]  ⭢   pkg upgrade
+
+
+       [install command]  ⭢   pkg install nodejs-lts
+
+       
+       [install command]  ⭢   pkg install git
+
+  
+       [install command]  ⭢   git clone https://github.com/bertthibaan/kua-cloner-discord.git
+
+
+       [install command]  ⭢   cd kua-cloner-discord
+
+
+       [install command]  ⭢   npm i
+
+
+       [install command]  ⭢   npm i -g tsx
+
+
+       [run     command]  ⭢   tsx .
+
+
+
+Encountered a problem Run or bug JOIN DISCORD ME
+                      ⭣                                  
+       [ https://discord.gg/bqVJZSJWgD ]
