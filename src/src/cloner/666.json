@@ -1,0 +1,1356 @@
+{
+    "name": "Odd Coders",
+    "verificationLevel": "MEDIUM",
+    "explicitContentFilter": "ALL_MEMBERS",
+    "defaultMessageNotifications": "ONLY_MENTIONS",
+    "afk": {
+        "name": "〔😴〕YOO AFK",
+        "timeout": 60
+    },
+    "widget": {
+        "channel": null
+    },
+    "channels": {
+        "categories": [
+            {
+                "name": "Important",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔📜〕rules",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": "Read rules of odd coder.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2112"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "〔📢〕odd-time",
+                        "nsfw": false,
+                        "parent": "Important",
+                        "topic": "Odd announcement.",
+                        "permissions": [
+                            {
+                                "roleName": "Odd Helper",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Big Mods",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "274878169152",
+                                "deny": "34359740416"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔👋〕welcome",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": "Welcome vros!",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Odd Big Mods",
+                                "allow": "2048",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔🦜〕self-role",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": "Get some cool roles for yourself.",
+                        "permissions": [
+                            {
+                                "roleName": "Odd Big Mods",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2112"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔📑〕role-info",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": "Read our role info here.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "274877908992"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔✍〕our-blogs",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Important",
+                        "topic": "Get our new blog post information.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "1024",
+                                "deny": "2112"
+                            },
+                            {
+                                "roleName": "Disping",
+                                "allow": "515396389952",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Odd Area",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔💬〕chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Area",
+                        "topic": "Chat with other cool people like you.",
+                        "permissions": [
+                            {
+                                "roleName": "Odd Owner",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "I'm baby",
+                                "allow": "64",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "Posh Kid",
+                                "allow": "0",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "Odd Boosters",
+                                "allow": "51264",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Big Baby",
+                                "allow": "0",
+                                "deny": "49152"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "517543880768",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Devs",
+                                "allow": "16448",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Supporter",
+                                "allow": "137439267904",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "vro gang!",
+                                "allow": "16384",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "18432",
+                                "deny": "2147516480"
+                            },
+                            {
+                                "roleName": "Big Man",
+                                "allow": "49152",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Tubers",
+                                "allow": "49216",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Botz",
+                                "allow": "68719529040",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Helper",
+                                "allow": "16384",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔🌸〕media",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Area",
+                        "topic": "Flexxxx here.",
+                        "permissions": [
+                            {
+                                "roleName": "Odd Botz",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "49216",
+                                "deny": "2147483648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔🌎〕memes",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Area",
+                        "topic": "Memes that makes you laughter.",
+                        "permissions": [
+                            {
+                                "roleName": "Odd Botz",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "49216",
+                                "deny": "2147483648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔💁〕get-help",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Area",
+                        "topic": "Talk about the problem you are facing. Don't ping any staff for help (may be pinging staff will be the reason of getting timeout).",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "395137007616",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Botz",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔💸〕level-up",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Area",
+                        "topic": "Check your rank using  /rank command.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2147483648",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Odd Botz",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔💝〕thank-yous",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Area",
+                        "topic": "Thank that person here (who helped you) <3.\nWrite +thank <@person> <reason>.",
+                        "permissions": [
+                            {
+                                "roleName": "Odd Big Mods",
+                                "allow": "0",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Odd Voice",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔👀〕Odd Public",
+                        "bitrate": 80000,
+                        "userLimit": 0,
+                        "parent": "Odd Voice",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔🎤〕no-mic",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Voice",
+                        "topic": "If you don't have a mic then you can chat here with others.\nIgnore if you can't understand the context.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2048",
+                                "deny": "2147483648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔🎵〕Odd Music",
+                        "bitrate": 96000,
+                        "userLimit": 0,
+                        "parent": "Odd Voice",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔👀〕Odd Stream",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Odd Voice",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔👀〕Odd Stream 2",
+                        "bitrate": 96000,
+                        "userLimit": 0,
+                        "parent": "Odd Voice",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔🤕〕Odd is Busy",
+                        "bitrate": 65000,
+                        "userLimit": 0,
+                        "parent": "Odd Voice",
+                        "permissions": [
+                            {
+                                "roleName": "Odd Busy",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Boosters",
+                                "allow": "1048576",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "vro gang!",
+                                "allow": "3145728",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Supporter",
+                                "allow": "3146240",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2097152",
+                                "deny": "1048576"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔😴〕YOO AFK",
+                        "bitrate": 8000,
+                        "userLimit": 0,
+                        "parent": "Odd Voice",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "35652352"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Suggestion",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔📺〕video-suggestions",
+                        "parent": "Suggestion",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔🧶〕server-suggestions",
+                        "parent": "Suggestion",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "Gamer's Paradise",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔🎮〕gaming-text",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Gamer's Paradise",
+                        "topic": "Gamers talk here.",
+                        "permissions": [],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔🏸〕Gaming VC",
+                        "bitrate": 50000,
+                        "userLimit": 0,
+                        "parent": "Gamer's Paradise",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔🏸〕Quartet VC",
+                        "bitrate": 64000,
+                        "userLimit": 4,
+                        "parent": "Gamer's Paradise",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔🏸〕Trio VC",
+                        "bitrate": 64000,
+                        "userLimit": 3,
+                        "parent": "Gamer's Paradise",
+                        "permissions": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔🏸〕Duo VC",
+                        "bitrate": 64000,
+                        "userLimit": 2,
+                        "parent": "Gamer's Paradise",
+                        "permissions": []
+                    }
+                ]
+            },
+            {
+                "name": "Local Hall",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔🎬〕movie-talks",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Local Hall",
+                        "topic": "Talk about movies.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2147483648"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔🎥〕Cinema Hall",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Local Hall",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2097664"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "549821926208",
+                                "deny": "0"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Odd Files",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔💝〕subscriber",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Files",
+                        "topic": "Subscriber-only content.",
+                        "permissions": [
+                            {
+                                "roleName": "Subscriber",
+                                "allow": "1024",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "〔💻〕source-code",
+                        "nsfw": false,
+                        "parent": "Odd Files",
+                        "topic": "Source code to make your work easier.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "64",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔💝〕booster",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Files",
+                        "topic": "Source codes for our boosters.",
+                        "permissions": [
+                            {
+                                "roleName": "Odd Boosters",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Helper",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "3072"
+                            },
+                            {
+                                "roleName": "Odd Big Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "〔💻〕shared-code",
+                        "nsfw": false,
+                        "parent": "Odd Files",
+                        "topic": "Shared codes for your next project.",
+                        "permissions": [
+                            {
+                                "roleName": "Odd Big Mods",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "0",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_NEWS",
+                        "name": "〔💻〕quick-apis",
+                        "nsfw": false,
+                        "parent": "Odd Files",
+                        "topic": "Get free API's.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Lavalink",
+                                "allow": "52224",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": true,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Odd Friends",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔👻〕bot-cmd",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Friends",
+                        "topic": "All bot commands should be typed here.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "139586748480",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔🎧〕music-cmd",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Friends",
+                        "topic": "Music commands here.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "2147483648",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔📈〕node-status",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Friends",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2048"
+                            },
+                            {
+                                "roleName": "Lavalink",
+                                "allow": "137439266880",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔📢〕self-promo",
+                        "nsfw": false,
+                        "rateLimitPerUser": 21600,
+                        "parent": "Odd Friends",
+                        "topic": "Promote yourself.",
+                        "permissions": [
+                            {
+                                "roleName": "Odd Helper",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Boosters",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "64",
+                                "deny": "274877908992"
+                            },
+                            {
+                                "roleName": "Odd Devs",
+                                "allow": "51200",
+                                "deny": "377957122048"
+                            },
+                            {
+                                "roleName": "Odd Contributor",
+                                "allow": "2048",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "51200",
+                                "deny": "377957122048"
+                            },
+                            {
+                                "roleName": "Odd Tubers",
+                                "allow": "51200",
+                                "deny": "377957122048"
+                            },
+                            {
+                                "roleName": "Big Baby",
+                                "allow": "51264",
+                                "deny": "377957122048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔📃〕leave-log",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Friends",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Odd Big Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔📃〕server-log",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Friends",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔📃〕request-log",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Odd Friends",
+                        "topic": "Subscribers request roles.",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "2048"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "Staff area",
+                "permissions": [],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔💬〕Staff VC",
+                        "bitrate": 64000,
+                        "userLimit": 0,
+                        "parent": "Staff area",
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Helper",
+                                "allow": "1049600",
+                                "deny": "0"
+                            }
+                        ]
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔🧐〕moderator-only",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff area",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Odd Big Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Serverus",
+                                "allow": "52288",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔🏸〕staff-chat",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff area",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "@everyone",
+                                "allow": "51264",
+                                "deny": "1024"
+                            },
+                            {
+                                "roleName": "Odd Big Mods",
+                                "allow": "3072",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Helper",
+                                "allow": "137439267904",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "3072",
+                                "deny": "0"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    },
+                    {
+                        "type": "GUILD_TEXT",
+                        "name": "〔〕staff-testing",
+                        "nsfw": false,
+                        "rateLimitPerUser": 0,
+                        "parent": "Staff area",
+                        "topic": null,
+                        "permissions": [
+                            {
+                                "roleName": "Odd Big Mods",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Owner",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Botz",
+                                "allow": "1024",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1024"
+                            }
+                        ],
+                        "messages": [],
+                        "isNews": false,
+                        "threads": []
+                    }
+                ]
+            },
+            {
+                "name": "archive",
+                "permissions": [
+                    {
+                        "roleName": "@everyone",
+                        "allow": "0",
+                        "deny": "1049600"
+                    },
+                    {
+                        "roleName": "Odd Mods",
+                        "allow": "1049600",
+                        "deny": "0"
+                    },
+                    {
+                        "roleName": "Odd Big Mods",
+                        "allow": "1049600",
+                        "deny": "0"
+                    }
+                ],
+                "children": [
+                    {
+                        "type": "GUILD_VOICE",
+                        "name": "〔🧩〕webhosting-report",
+                        "parent": "archive",
+                        "permissions": [
+                            {
+                                "roleName": "Odd Big Mods",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "Odd Mods",
+                                "allow": "1049600",
+                                "deny": "0"
+                            },
+                            {
+                                "roleName": "@everyone",
+                                "allow": "0",
+                                "deny": "1049600"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "others": []
+    },
+    "roles": [
+        {
+            "name": "Odd Owner",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "8",
+            "mentionable": false,
+            "position": 48,
+            "isEveryone": false
+        },
+        {
+            "name": "Odd Admin",
+            "color": "#2edd2e",
+            "hoist": true,
+            "permissions": "966404672073",
+            "mentionable": false,
+            "position": 47,
+            "isEveryone": false
+        },
+        {
+            "name": "Odd Big Mods",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "28587302191095",
+            "mentionable": true,
+            "position": 45,
+            "isEveryone": false
+        },
+        {
+            "name": "Odd Mods",
+            "color": "#ff0000",
+            "hoist": true,
+            "permissions": "19789598552001",
+            "mentionable": true,
+            "position": 44,
+            "isEveryone": false
+        },
+        {
+            "name": "Odd Supporter",
+            "color": "#2ecc71",
+            "hoist": true,
+            "permissions": "137506374720",
+            "mentionable": false,
+            "position": 40,
+            "isEveryone": false
+        },
+        {
+            "name": "Odd Partner",
+            "color": "#00ffdb",
+            "hoist": true,
+            "permissions": "828965768769",
+            "mentionable": false,
+            "position": 39,
+            "isEveryone": false
+        },
+        {
+            "name": "Odd Helper",
+            "color": "#00ffff",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 38,
+            "isEveryone": false
+        },
+        {
+            "name": "Odd Tubers",
+            "color": "#ff0700",
+            "hoist": true,
+            "permissions": "966404672065",
+            "mentionable": false,
+            "position": 37,
+            "isEveryone": false
+        },
+        {
+            "name": "Odd Contributor",
+            "color": "#00f8ff",
+            "hoist": true,
+            "permissions": "828965768768",
+            "mentionable": false,
+            "position": 36,
+            "isEveryone": false
+        },
+        {
+            "name": "Odd Devs",
+            "color": "#1abc9c",
+            "hoist": true,
+            "permissions": "1071698529857",
+            "mentionable": false,
+            "position": 35,
+            "isEveryone": false
+        },
+        {
+            "name": "vro gang!",
+            "color": "#dd00ff",
+            "hoist": true,
+            "permissions": "67423296",
+            "mentionable": false,
+            "position": 34,
+            "isEveryone": false
+        },
+        {
+            "name": "Odd Botz",
+            "color": "#9b59b6",
+            "hoist": true,
+            "permissions": "1071631420993",
+            "mentionable": false,
+            "position": 33,
+            "isEveryone": false
+        },
+        {
+            "name": "Odd Busy",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "966404672065",
+            "mentionable": false,
+            "position": 32,
+            "isEveryone": false
+        },
+        {
+            "name": "Big Man",
+            "color": "#00e8ff",
+            "hoist": true,
+            "permissions": "67108864",
+            "mentionable": false,
+            "position": 31,
+            "isEveryone": false
+        },
+        {
+            "name": "Posh Kid",
+            "color": "#00b2ff",
+            "hoist": true,
+            "permissions": "67108864",
+            "mentionable": false,
+            "position": 30,
+            "isEveryone": false
+        },
+        {
+            "name": "Big Baby",
+            "color": "#94ff00",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 29,
+            "isEveryone": false
+        },
+        {
+            "name": "I'm baby",
+            "color": "#1abc9c",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 28,
+            "isEveryone": false
+        },
+        {
+            "name": "Human Being",
+            "color": "#e91e63",
+            "hoist": false,
+            "permissions": "67160128",
+            "mentionable": false,
+            "position": 27,
+            "isEveryone": false
+        },
+        {
+            "name": "Subscriber",
+            "color": "#e91e63",
+            "hoist": true,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 25,
+            "isEveryone": false
+        },
+        {
+            "name": "Male",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 24,
+            "isEveryone": false
+        },
+        {
+            "name": "Female",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 23,
+            "isEveryone": false
+        },
+        {
+            "name": "Non-Binary",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 22,
+            "isEveryone": false
+        },
+        {
+            "name": "Source Ping",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 20,
+            "isEveryone": false
+        },
+        {
+            "name": "YouTube Ping",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 19,
+            "isEveryone": false
+        },
+        {
+            "name": "Movie Ping",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 18,
+            "isEveryone": false
+        },
+        {
+            "name": "Giveaway Ping",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 17,
+            "isEveryone": false
+        },
+        {
+            "name": "Announce Ping",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 16,
+            "isEveryone": false
+        },
+        {
+            "name": "Blog Ping",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": false,
+            "position": 15,
+            "isEveryone": false
+        },
+        {
+            "name": "Revive Time",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "0",
+            "mentionable": true,
+            "position": 14,
+            "isEveryone": false
+        },
+        {
+            "name": "@everyone",
+            "color": "#000000",
+            "hoist": false,
+            "permissions": "1095942547033665",
+            "mentionable": false,
+            "position": 0,
+            "isEveryone": true
+        }
+    ],
+    "bans": [],
+    "emojis": [],
+    "createdTimestamp": 1715858724128,
+    "guildID": "952209559286595654",
+    "id": "1240626151043497984",
+    "iconURL": "https://cdn.discordapp.com/icons/952209559286595654/269ef366cbdb96df0f6973bba1fd271e.webp"
+}
